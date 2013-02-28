@@ -28,3 +28,4 @@ verify.sh
 ---------
 
 verify.sh is a bash script which uses NSS utilities to manually verify a signed packaged app (such as one obtained with sign.py) against a public certificate.
+Note: At this time, verify.sh only validates zigbert.rsa, not the checksums from zigbert.sf and manifest.mf.
