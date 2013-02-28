@@ -5,14 +5,15 @@ Utils to sign and verify signatures from packaged apps for Firefox OS
 
 RESOURCES
 ---------
-Trunion: https://github.com/mozilla/trunion/
-Signing clients: https://github.com/mozilla/signing-clients/
-Zamboni: https://github.com/mozilla/zamboni/
+* Trunion: https://github.com/mozilla/trunion/
+* Signing clients: https://github.com/mozilla/signing-clients/
+* Zamboni: https://github.com/mozilla/zamboni/
 
 EXAMPLE
 -------
 
   $ ./sign.py unsigned.zip signed.zip http://localhost:10000/1.0/sign\_app
+
   $ ./verify.sh signed.zip root\_ca.pem
 
 sign.py
